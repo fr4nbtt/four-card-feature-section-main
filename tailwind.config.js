@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
+    screens: {
+      md: "900px",
+    },
     extend: {
       colors: {
         /* Primary */
@@ -20,4 +23,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
